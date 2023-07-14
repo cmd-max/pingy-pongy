@@ -128,5 +128,7 @@ while True:
         pad_1.hideturtle()
         pad_2.hideturtle()
         ball.hideturtle()
+        pen.hideturtle()
+        pen.color("black")
         pen.goto(0,0)
         pen.write("Game Over\n{}wins!".format(winner),align = "center",font = ("Arial",16,"bold"))
